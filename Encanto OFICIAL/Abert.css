@@ -1,0 +1,76 @@
+ .text-monospace{    text-align: center;
+    font-family: 'Miltonian Tattoo', sans-serif;
+    color: #000000;
+    font-size: 70px;
+
+}
+
+
+
+/* .imagem{
+    width: 10px;
+    top: 10px;
+    height: 10px;
+    position: absolute;
+}  */
+
+
+
+body{
+    background-color: #C0E0F7;
+}
+
+#navbar{
+    
+    display: flex, inline;
+    width: 100%;
+   
+    
+}
+
+#navbar a:hover {
+    color: #18454A;
+}
+#navbar a.active{
+    border-bottom: 1px solid #050505;
+    color: #000000;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    
+}
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+a.nav-link{
+    color: #000000;
+}
+
+#navbar-items .nav-item{
+    margin: 0 2em;
+    
+}
+
+.embajo{
+    background-color: #C0E0F7;
+}
+.fuego{
+    
+    background-color: #faf0ce;
+}
+h4{
+    color: #050505d7
+}
+p{
+    color: #000000;
+}
