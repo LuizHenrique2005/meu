@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="logingit.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="es" dir="ltr">
+
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="logingit.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="container a-container" id="a-container">
+                <form class="form" id="a-form" method="post" action="signup.php">
+                    <h2 class="form_title title">Crie sua conta aqui</h2>
+                    <div class="form__icons"><img class="form__icon"
+                            src="#"
+                            alt=""><img class="form__icon"
+                            src="#"><img
+                            class="form__icon"
+                            src="#">
+                    </div><span class="form__span">Use seu email para se registrar</span>
+                    <input class="form__input" type="text" placeholder="Nome" name="username">
+                    <input class="form__input" type="text" placeholder="Email" name="email">
+                    <input class="form__input" type="password" placeholder="Crie uma senha" name="password">
+                    <button class="form__button button switch-btn" type='submit' name="signup">CADASTRAR-SE</button>
+                </form>
+            </div>
+            <div class="container b-container" id="b-container">
+                <form class="form" id="b-form" method="post" action="index.html">
+                    <h2 class="form_title title">Entre com a sua conta</h2>
+                    <div class="form__icons"><img class="form__icon"
+                            src="#"
+                            alt=""><img class="form__icon"
+                            src="#"><img
+                            class="form__icon"
+                            src="#">
+                    </div><span class="form__span">Use seu email para entrar</span>
+                    <input class="form__input" type="text" placeholder="Email" name="email">
+                    <input class="form__input" type="password" placeholder="Senha" name="password"><a target="_blank"
+                        href="sla.html" class=" esquec form__link">Esqueceu sua senha?</a>
+                    <button class="form__button button switch-btn" name="signin">ENTRAR</button>
+                </form>
+            </div>
+            <div class="switch" id="switch-cnt">
+                <div class="switch__circle"></div>
+                <div class="switch__circle switch__circle--t"></div>
+                <div class="switch__container" id="switch-c1">
+                    <h2 class="switch__title title">Que bom que você voltou!</h2>
+                    <p class="switch__description description">A equipe encanto sentiu saudades de você. Não perca mais
+                        tempo, entre logo.</p>
+                    <button class="switch__button button switch-btn">FAZER O LOGIN</button>
+                </div>
+                <div class="switch__container is-hidden" id="switch-c2">
+                    <h2 class="switch__title title">Novo aqui?</h2>
+                    <p class="switch__description description">Não perca tempo, venha conhecer nossa plataforma!</p>
+                    <button class="switch__button button switch-btn">SE CADASTRAR</button>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
+    <script src="logingit.js"></script>
+</body>
+
+</html>
